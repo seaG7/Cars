@@ -632,6 +632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CAR
       objectReference: {fileID: 0}
+    - target: {fileID: 2650440240198758890, guid: 8ffbbe21459ee934b91adb0eee104316, type: 3}
+      propertyPath: m_Mass
+      value: 800
+      objectReference: {fileID: 0}
     - target: {fileID: 2832428600584309951, guid: 8ffbbe21459ee934b91adb0eee104316, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.214
@@ -671,6 +675,26 @@ PrefabInstance:
     - target: {fileID: 2832428600584309951, guid: 8ffbbe21459ee934b91adb0eee104316, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8471504347601028840, guid: 8ffbbe21459ee934b91adb0eee104316, type: 3}
+      propertyPath: _maxRpm
+      value: 8000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8471504347601028840, guid: 8ffbbe21459ee934b91adb0eee104316, type: 3}
+      propertyPath: _idleRpm
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8471504347601028840, guid: 8ffbbe21459ee934b91adb0eee104316, type: 3}
+      propertyPath: _flywheelInertia
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8471504347601028840, guid: 8ffbbe21459ee934b91adb0eee104316, type: 3}
+      propertyPath: _torqueCurve.m_Curve.Array.data[0].value
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8471504347601028840, guid: 8ffbbe21459ee934b91adb0eee104316, type: 3}
+      propertyPath: _torqueCurve.m_Curve.Array.data[1].value
+      value: 8000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -104,7 +104,11 @@ public class KartController : MonoBehaviour
 
         if (_throttleInput > 0 && speedAlongForward > maxSpeed) return;
 
-        float driveTorque = engineTorque * _throttleInput;
+        float driveTorque = _engine.Simulate(
+            _throttleInput,
+            speedAlongForward,
+            Time.fixedDeltaTime
+        );
 
         float driveForcePerWheel = driveTorque / wheelRadius / 2;
 
