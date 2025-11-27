@@ -611,10 +611,10 @@ MonoBehaviour:
   engineTorque: 400
   wheelRadius: 0.3
   maxSpeed: 20
-  maxSteeringAngle: 0
+  maxSteeringAngle: 30
   frictionCoefficient: 1
   lateralStiffnes: 80
-  rollingResistance: 0
+  rollingResistance: 0.5
 --- !u!54 &989941782
 Rigidbody:
   m_ObjectHideFlags: 0

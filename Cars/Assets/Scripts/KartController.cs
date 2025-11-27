@@ -121,8 +121,8 @@ public class KartController : MonoBehaviour
         ApplyEngineForces();
         ApplyWheelForce(_frontLeftWheel, _frontLeftNormalForce, isSteer: true, isDrive: false);
         ApplyWheelForce(_frontRightWheel, _frontRightNormalForce, isSteer: true, isDrive: false);
-        ApplyWheelForce(_rearLeftWheel, _rearLeftNormalForce, isSteer: false, isDrive:
-true);
+        ApplyWheelForce(_rearLeftWheel, _rearLeftNormalForce, isSteer: false,
+isDrive: true);
         ApplyWheelForce(_rearRightWheel, _rearRightNormalForce, isSteer: false, isDrive: true);
 
     }
